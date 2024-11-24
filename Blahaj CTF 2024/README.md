@@ -17,6 +17,11 @@ Attempted to solve but unfortunately did not:
 
 ![image](https://github.com/user-attachments/assets/f6cbe5ff-22c8-4d17-8bfa-db04f3d38f5d)
 
+### web
+
+![image](https://github.com/user-attachments/assets/43efba2b-ffe6-4d4f-9cd3-3dfa31bd845f)
+
+
 ### misc
 - **Jigsaw Puzzle**
 - **Casting Spells**

@@ -1,7 +1,8 @@
 # Notepad
 
 chal.c file:
-`
+
+```
 //gcc chal.c -no-pie -o chal
 #include <stdlib.h>
 #include <stdio.h>
@@ -91,10 +92,11 @@ fin:
     puts("Bye!");
     return 0;
 }
-`
+```
 
 ### Solution:
 
+```
 from pwn import *
 filename = "chal"
 # context.binary =elf = ELF(filename)
@@ -121,4 +123,5 @@ p.sendlineafter("Quit", "3")
 while True: 
     print(p.recvline())
 
-#p.interactive()`
+#p.interactive()
+```

@@ -1,5 +1,15 @@
 # Notepad
 
+Right away, we can see that there is a convenient win function to call to get the flag, so it is ret2win.
+
+### Use After Free Vulnerability
+Malloc/heap & free
+
+After free(note), note not set to NULL, so still can access the memory.
+
+So that's why we need to create a Notepad, so we can write to the place where note -> read is, and then call read content to call win.
+
+
 chal.c file:
 
 ```
@@ -95,6 +105,22 @@ fin:
 ```
 
 ### Solution:
+Solve steps:
+1. Create new note
+2. Delete note
+3. Create new notepad (write the `win` function addr to it)
+4. Read note content
+
+Offset is 32 because we want to write to the read function, and title is 32 bytes.
+
+```
+struct Note {
+    char title[32];
+    void (*read)(struct Note*); //declares a function pointer, func is read, returns nothing
+    char content[1024];
+};
+```
+Python Solution using pwntools
 
 ```
 from pwn import *

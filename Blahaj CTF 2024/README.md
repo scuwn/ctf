@@ -16,3 +16,7 @@ Attempted to solve but unfortunately did not:
 
 
 ![image](https://github.com/user-attachments/assets/f6cbe5ff-22c8-4d17-8bfa-db04f3d38f5d)
+
+### misc
+- **Jigsaw Puzzle**
+- **Casting Spells**

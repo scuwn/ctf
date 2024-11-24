@@ -18,7 +18,7 @@ This:
 
 Luckily for us, XOR is reversible, so we can get back the original string.
 
-###Solve script
+### Solve script
 
 To run in powershell, ``powershell -executionpolicy bypass -File .\powershell_solve.ps1`
 

@@ -20,7 +20,7 @@ The exp parameter just determines the expiry of the cookie. But it becomes fairl
 
 In order to do that, we first need to understand the structure of a JWT token.
 
-It has the structure ``` HEADER.PAYLOAD.SIGNATURE ```, With the header and payload being base64encoded, and the signature being encoded in this manner ``` HMACSHA256(base64UrlEncode(header) + "." + base64UrlEncode(payload), secret)```
+It has the structure ``` HEADER.PAYLOAD.SIGNATURE ```, With the header and payload being base64encoded, and the signature being encoded in this manner ```HMACSHA256(base64UrlEncode(header) + "." + base64UrlEncode(payload), secret)```
 
 Now, if a weak secret is used, it can still be cracked, and that's exactly what we're going to do.
 

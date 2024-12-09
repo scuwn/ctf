@@ -29,7 +29,7 @@ Running this in our shell with hashcat, we can brute-force the hash with a wordl
 
 ```hashcat -m 16500 jwt_hashed.txt /usr/share/wordlists/rockyou.txt```
 
-And soon enough, we have the secret 'i-love-shark'. This allows us to create a authentic cookie, completing the challenge
+And soon enough, we have the secret 'i-love-shark'. This allows us to create a authentic cookie, replace it in our request and complete the challenge
 
 ![image](https://github.com/user-attachments/assets/9d2b2fe7-a88a-45b4-8448-fa0a43c88ce6)
 

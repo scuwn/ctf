@@ -30,7 +30,7 @@ def spin():
 
 From here, there doesn't seem to be checks on the backend on how much money we have. We can exploit this
 
-![image](https://github.com/user-attachments/assets/91e13825-1b73-40e0-a6fb-d8ceac362a10)
+![image](https://github.com/user-attachments/assets/705152dc-3673-4ea6-846b-3cb88b7bb94f)
 
 Luckily, Burpsuite let's us change the request, allowing us to change the money value sent to the server to 13371337, and receiving the flag in the request.
 

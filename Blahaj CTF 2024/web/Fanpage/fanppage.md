@@ -26,7 +26,7 @@ Now, if a weak secret is used, it can still be cracked, and that's exactly what 
 
 Running this in our shell with hashcat, we can brute-force the hash with a wordlist. 
 
-```hashcat -m 16500 jwt_hashed.txt /usr/share/wordlists/rockyou.txt``
+```hashcat -m 16500 jwt_hashed.txt /usr/share/wordlists/rockyou.txt```
 
 Gives us 'i-love-shark'. This allows us to create a authentic cookie, completing the challenge
 

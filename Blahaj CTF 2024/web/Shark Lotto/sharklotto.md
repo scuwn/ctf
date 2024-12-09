@@ -1,6 +1,7 @@
 # sharklotto
 
 We are given this website with the objective to obtain 13371337 moneyz:
+
 ![image](https://github.com/user-attachments/assets/94002c70-1340-4b51-b53e-bc380cb25db8)
 
 Seems simple enough. 1/16 chance of getting 10x the money... It's obvious we need to somehow get more money, bypassing this system.

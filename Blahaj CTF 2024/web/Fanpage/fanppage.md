@@ -8,7 +8,7 @@ Obviously, it's checking something to determine whether we're an admin. Let's ch
 
 ![image](https://github.com/user-attachments/assets/481c8c7e-68a0-49da-a44e-2f2f48e147a5)
 
-As we can see, it has a cookie. A JWT token, to be specific. Putting this through [JWT debugger](https://jwt.io/) gives us 
+As we can see, it has a cookie. A JWT token, to be specific. Putting this through [JWT debugger](https://jwt.io/) gives us the payload of
 
 ```
 {

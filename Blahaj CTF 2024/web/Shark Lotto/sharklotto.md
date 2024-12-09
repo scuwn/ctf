@@ -1,7 +1,9 @@
 # sharklotto
 
-We are given this website:
-(insert image here)
+We are given this website with the objective to obtain 13371337 moneyz:
+![image](https://github.com/user-attachments/assets/94002c70-1340-4b51-b53e-bc380cb25db8)
+
+Seems simple enough. 1/16 chance of getting 10x the money... It's obvious we need to somehow get more money, bypassing this system.
 
 This is the main backend script that we need to exploit
 ```
@@ -25,6 +27,10 @@ def spin():
     })
 ```
 
-It's a simple luck game. But it's heavily stacked against us. We cannot just rely on luck to solve this. However, there doesn't seem to be checks on the backend on how much money we have. We can exploit this
+From here, there doesn't seem to be checks on the backend on how much money we have. We can exploit this
+
+![image](https://github.com/user-attachments/assets/91e13825-1b73-40e0-a6fb-d8ceac362a10)
 
 Luckily, Burpsuite let's us change the request, allowing us to change the money value sent to the server to 13371337, and receiving the flag in the request.
+
+`blahaj{d0n7_7rus7_th3_cl13nt}`

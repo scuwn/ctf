@@ -18,8 +18,8 @@ Attempted to solve but unfortunately did not:
 ![image](https://github.com/user-attachments/assets/f6cbe5ff-22c8-4d17-8bfa-db04f3d38f5d)
 
 ### web
-- **Blahaj Fanpage**: 
-- **Shark Lotto**:
+- **Blahaj Fanpage**: Bruteforcing JWT token with hashcat
+- **Shark Lotto**: Changing request parameters to bypass client-side checks
 - **Calculator**:
 - **BabySQL**:
 - **Data Compressor**:
